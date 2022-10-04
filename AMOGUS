@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#app {
+    background-color: aliceblue;
+}
+
+#game{
+    background-color:lightcoral;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <section id="app">
+        <h1>Aplicaciones</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;"
+            src="https://studio.code.org/projects/applab/dXX4nwOnqcMdaWPIv-mlIosC7QDU2sL-yah3nnyQk8w/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;"
+            src="https://studio.code.org/projects/applab/YYzKZMlyxKgCUIOpB3YVYr8fGkvPkXGA9cyk_7_jlyY/embed"></iframe>
+    </section>
+
+    <section id="game">
+        <h1>Juegos</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;"
+            src="https://studio.code.org/projects/gamelab/3tbj1gkdLpon46CQApjDUhuzVfqgR_tV3zquLgjI3z4/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;"
+            src="https://studio.code.org/projects/applab/IA781Arbg6aYb7mbBm8jO5XLnM1v2IcBBrGHy2UBKpI/embed"></iframe>
+    </section>
+
+</body>
+
+</html>
